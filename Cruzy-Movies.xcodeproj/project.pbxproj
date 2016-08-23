@@ -406,6 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-Movies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
 		};
@@ -419,6 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-Movies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
 		};
@@ -491,6 +493,7 @@
 				AB5CA7851D2703E00025C59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB5CA7861D2703E00025C59E /* Build configuration list for PBXNativeTarget "Cruzy-MoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +502,7 @@
 				AB5CA7881D2703E00025C59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB5CA7891D2703E00025C59E /* Build configuration list for PBXNativeTarget "Cruzy-MoviesUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +511,7 @@
 				AB5CA78B1D2703E00025C59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB45F0D01D2D68210040E301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45F0CF1D2D68210040E301 /* AppDelegate.swift */; };
+		AB45F0D21D2D68210040E301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45F0D11D2D68210040E301 /* ViewController.swift */; };
+		AB45F0D51D2D68210040E301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB45F0D31D2D68210040E301 /* Main.storyboard */; };
+		AB45F0D71D2D68210040E301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB45F0D61D2D68210040E301 /* Assets.xcassets */; };
+		AB45F0DA1D2D68210040E301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB45F0D81D2D68210040E301 /* LaunchScreen.storyboard */; };
+		AB45F0E51D2D68210040E301 /* Cruzy_Movies_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45F0E41D2D68210040E301 /* Cruzy_Movies_iOSTests.swift */; };
+		AB45F0F01D2D68210040E301 /* Cruzy_Movies_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45F0EF1D2D68210040E301 /* Cruzy_Movies_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB45F0E11D2D68210040E301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB45F0C41D2D68200040E301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB45F0CB1D2D68210040E301;
+			remoteInfo = "Cruzy-Movies-iOS";
+		};
+		AB45F0EC1D2D68210040E301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB45F0C41D2D68200040E301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB45F0CB1D2D68210040E301;
+			remoteInfo = "Cruzy-Movies-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB45F0CC1D2D68210040E301 /* Cruzy-Movies-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cruzy-Movies-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB45F0CF1D2D68210040E301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB45F0D11D2D68210040E301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB45F0D41D2D68210040E301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB45F0D61D2D68210040E301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB45F0D91D2D68210040E301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB45F0DB1D2D68210040E301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB45F0E01D2D68210040E301 /* Cruzy-Movies-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cruzy-Movies-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB45F0E41D2D68210040E301 /* Cruzy_Movies_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cruzy_Movies_iOSTests.swift; sourceTree = "<group>"; };
+		AB45F0E61D2D68210040E301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB45F0EB1D2D68210040E301 /* Cruzy-Movies-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cruzy-Movies-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB45F0EF1D2D68210040E301 /* Cruzy_Movies_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cruzy_Movies_iOSUITests.swift; sourceTree = "<group>"; };
+		AB45F0F11D2D68210040E301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB45F0C91D2D68210040E301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45F0DD1D2D68210040E301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45F0E81D2D68210040E301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB45F0C31D2D68200040E301 = {
+			isa = PBXGroup;
+			children = (
+				AB45F0CE1D2D68210040E301 /* Cruzy-Movies-iOS */,
+				AB45F0E31D2D68210040E301 /* Cruzy-Movies-iOSTests */,
+				AB45F0EE1D2D68210040E301 /* Cruzy-Movies-iOSUITests */,
+				AB45F0CD1D2D68210040E301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB45F0CD1D2D68210040E301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB45F0CC1D2D68210040E301 /* Cruzy-Movies-iOS.app */,
+				AB45F0E01D2D68210040E301 /* Cruzy-Movies-iOSTests.xctest */,
+				AB45F0EB1D2D68210040E301 /* Cruzy-Movies-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB45F0CE1D2D68210040E301 /* Cruzy-Movies-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB45F0CF1D2D68210040E301 /* AppDelegate.swift */,
+				AB45F0D11D2D68210040E301 /* ViewController.swift */,
+				AB45F0D31D2D68210040E301 /* Main.storyboard */,
+				AB45F0D61D2D68210040E301 /* Assets.xcassets */,
+				AB45F0D81D2D68210040E301 /* LaunchScreen.storyboard */,
+				AB45F0DB1D2D68210040E301 /* Info.plist */,
+			);
+			path = "Cruzy-Movies-iOS";
+			sourceTree = "<group>";
+		};
+		AB45F0E31D2D68210040E301 /* Cruzy-Movies-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB45F0E41D2D68210040E301 /* Cruzy_Movies_iOSTests.swift */,
+				AB45F0E61D2D68210040E301 /* Info.plist */,
+			);
+			path = "Cruzy-Movies-iOSTests";
+			sourceTree = "<group>";
+		};
+		AB45F0EE1D2D68210040E301 /* Cruzy-Movies-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB45F0EF1D2D68210040E301 /* Cruzy_Movies_iOSUITests.swift */,
+				AB45F0F11D2D68210040E301 /* Info.plist */,
+			);
+			path = "Cruzy-Movies-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB45F0CB1D2D68210040E301 /* Cruzy-Movies-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45F0F41D2D68210040E301 /* Build configuration list for PBXNativeTarget "Cruzy-Movies-iOS" */;
+			buildPhases = (
+				AB45F0C81D2D68210040E301 /* Sources */,
+				AB45F0C91D2D68210040E301 /* Frameworks */,
+				AB45F0CA1D2D68210040E301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cruzy-Movies-iOS";
+			productName = "Cruzy-Movies-iOS";
+			productReference = AB45F0CC1D2D68210040E301 /* Cruzy-Movies-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB45F0DF1D2D68210040E301 /* Cruzy-Movies-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45F0F71D2D68210040E301 /* Build configuration list for PBXNativeTarget "Cruzy-Movies-iOSTests" */;
+			buildPhases = (
+				AB45F0DC1D2D68210040E301 /* Sources */,
+				AB45F0DD1D2D68210040E301 /* Frameworks */,
+				AB45F0DE1D2D68210040E301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB45F0E21D2D68210040E301 /* PBXTargetDependency */,
+			);
+			name = "Cruzy-Movies-iOSTests";
+			productName = "Cruzy-Movies-iOSTests";
+			productReference = AB45F0E01D2D68210040E301 /* Cruzy-Movies-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB45F0EA1D2D68210040E301 /* Cruzy-Movies-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45F0FA1D2D68210040E301 /* Build configuration list for PBXNativeTarget "Cruzy-Movies-iOSUITests" */;
+			buildPhases = (
+				AB45F0E71D2D68210040E301 /* Sources */,
+				AB45F0E81D2D68210040E301 /* Frameworks */,
+				AB45F0E91D2D68210040E301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB45F0ED1D2D68210040E301 /* PBXTargetDependency */,
+			);
+			name = "Cruzy-Movies-iOSUITests";
+			productName = "Cruzy-Movies-iOSUITests";
+			productReference = AB45F0EB1D2D68210040E301 /* Cruzy-Movies-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB45F0C41D2D68200040E301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Michael Cruz";
+				TargetAttributes = {
+					AB45F0CB1D2D68210040E301 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NQS57WE77C;
+						DevelopmentTeamName = "Michael Cruz";
+						ProvisioningStyle = Automatic;
+					};
+					AB45F0DF1D2D68210040E301 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NQS57WE77C;
+						DevelopmentTeamName = "Michael Cruz";
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB45F0CB1D2D68210040E301;
+					};
+					AB45F0EA1D2D68210040E301 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NQS57WE77C;
+						DevelopmentTeamName = "Michael Cruz";
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB45F0CB1D2D68210040E301;
+					};
+				};
+			};
+			buildConfigurationList = AB45F0C71D2D68200040E301 /* Build configuration list for PBXProject "Cruzy-Movies-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB45F0C31D2D68200040E301;
+			productRefGroup = AB45F0CD1D2D68210040E301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB45F0CB1D2D68210040E301 /* Cruzy-Movies-iOS */,
+				AB45F0DF1D2D68210040E301 /* Cruzy-Movies-iOSTests */,
+				AB45F0EA1D2D68210040E301 /* Cruzy-Movies-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB45F0CA1D2D68210040E301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45F0DA1D2D68210040E301 /* LaunchScreen.storyboard in Resources */,
+				AB45F0D71D2D68210040E301 /* Assets.xcassets in Resources */,
+				AB45F0D51D2D68210040E301 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45F0DE1D2D68210040E301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45F0E91D2D68210040E301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB45F0C81D2D68210040E301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45F0D21D2D68210040E301 /* ViewController.swift in Sources */,
+				AB45F0D01D2D68210040E301 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45F0DC1D2D68210040E301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45F0E51D2D68210040E301 /* Cruzy_Movies_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45F0E71D2D68210040E301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45F0F01D2D68210040E301 /* Cruzy_Movies_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB45F0E21D2D68210040E301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB45F0CB1D2D68210040E301 /* Cruzy-Movies-iOS */;
+			targetProxy = AB45F0E11D2D68210040E301 /* PBXContainerItemProxy */;
+		};
+		AB45F0ED1D2D68210040E301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB45F0CB1D2D68210040E301 /* Cruzy-Movies-iOS */;
+			targetProxy = AB45F0EC1D2D68210040E301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB45F0D31D2D68210040E301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB45F0D41D2D68210040E301 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB45F0D81D2D68210040E301 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB45F0D91D2D68210040E301 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB45F0F21D2D68210040E301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB45F0F31D2D68210040E301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB45F0F51D2D68210040E301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cruzy-Movies-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-Movies-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB45F0F61D2D68210040E301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cruzy-Movies-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-Movies-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AB45F0F81D2D68210040E301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cruzy-Movies-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-Movies-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cruzy-Movies-iOS.app/Cruzy-Movies-iOS";
+			};
+			name = Debug;
+		};
+		AB45F0F91D2D68210040E301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cruzy-Movies-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-Movies-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cruzy-Movies-iOS.app/Cruzy-Movies-iOS";
+			};
+			name = Release;
+		};
+		AB45F0FB1D2D68210040E301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cruzy-Movies-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-Movies-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cruzy-Movies-iOS";
+			};
+			name = Debug;
+		};
+		AB45F0FC1D2D68210040E301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cruzy-Movies-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-Movies-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cruzy-Movies-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB45F0C71D2D68200040E301 /* Build configuration list for PBXProject "Cruzy-Movies-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45F0F21D2D68210040E301 /* Debug */,
+				AB45F0F31D2D68210040E301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB45F0F41D2D68210040E301 /* Build configuration list for PBXNativeTarget "Cruzy-Movies-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45F0F51D2D68210040E301 /* Debug */,
+				AB45F0F61D2D68210040E301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB45F0F71D2D68210040E301 /* Build configuration list for PBXNativeTarget "Cruzy-Movies-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45F0F81D2D68210040E301 /* Debug */,
+				AB45F0F91D2D68210040E301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB45F0FA1D2D68210040E301 /* Build configuration list for PBXNativeTarget "Cruzy-Movies-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45F0FB1D2D68210040E301 /* Debug */,
+				AB45F0FC1D2D68210040E301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB45F0C41D2D68200040E301 /* Project object */;
+}
