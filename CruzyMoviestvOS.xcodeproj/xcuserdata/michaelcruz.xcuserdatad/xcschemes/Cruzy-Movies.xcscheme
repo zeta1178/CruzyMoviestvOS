@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB5CA75D1D2703E00025C59E"
-               BuildableName = "Cruzy-Movies.app"
-               BlueprintName = "Cruzy-Movies"
-               ReferencedContainer = "container:Cruzy-Movies.xcodeproj">
+               BuildableName = "CruzyMoviestvOS.app"
+               BlueprintName = "CruzyMoviestvOS"
+               ReferencedContainer = "container:CruzyMoviestvOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB5CA76E1D2703E00025C59E"
-               BuildableName = "Cruzy-MoviesTests.xctest"
-               BlueprintName = "Cruzy-MoviesTests"
-               ReferencedContainer = "container:Cruzy-Movies.xcodeproj">
+               BuildableName = "CruzyMoviestvOS.xctest"
+               BlueprintName = "CruzyMoviestvOSTests"
+               ReferencedContainer = "container:CruzyMoviestvOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB5CA7791D2703E00025C59E"
-               BuildableName = "Cruzy-MoviesUITests.xctest"
-               BlueprintName = "Cruzy-MoviesUITests"
-               ReferencedContainer = "container:Cruzy-Movies.xcodeproj">
+               BuildableName = "CruzyMoviestvOS.xctest"
+               BlueprintName = "CruzyMoviestvOSUITests"
+               ReferencedContainer = "container:CruzyMoviestvOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB5CA75D1D2703E00025C59E"
-            BuildableName = "Cruzy-Movies.app"
-            BlueprintName = "Cruzy-Movies"
-            ReferencedContainer = "container:Cruzy-Movies.xcodeproj">
+            BuildableName = "CruzyMoviestvOS.app"
+            BlueprintName = "CruzyMoviestvOS"
+            ReferencedContainer = "container:CruzyMoviestvOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB5CA75D1D2703E00025C59E"
-            BuildableName = "Cruzy-Movies.app"
-            BlueprintName = "Cruzy-Movies"
-            ReferencedContainer = "container:Cruzy-Movies.xcodeproj">
+            BuildableName = "CruzyMoviestvOS.app"
+            BlueprintName = "CruzyMoviestvOS"
+            ReferencedContainer = "container:CruzyMoviestvOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB5CA75D1D2703E00025C59E"
-            BuildableName = "Cruzy-Movies.app"
-            BlueprintName = "Cruzy-Movies"
-            ReferencedContainer = "container:Cruzy-Movies.xcodeproj">
+            BuildableName = "CruzyMoviestvOS.app"
+            BlueprintName = "CruzyMoviestvOS"
+            ReferencedContainer = "container:CruzyMoviestvOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
