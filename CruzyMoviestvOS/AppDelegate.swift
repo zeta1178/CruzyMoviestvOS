@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     var window: UIWindow?
     var appController: TVApplicationController?
     static let TVBaseURL = "http://cruzy.co/"
+    static let TVBaseURL2 = "http://cruzy.co/images/"
     static let TVBootURL = "\(AppDelegate.TVBaseURL)js/application.js"
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -22,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
         guard let javaScriptURL = NSURL(string: AppDelegate.TVBootURL) else { fatalError("unable to create NSURL") }
         appControllerContext.javaScriptApplicationURL = javaScriptURL
         appControllerContext.launchOptions["BASEURL"] = AppDelegate.TVBaseURL
+        appControllerContext.launchOptions["BASEURL2"] = AppDelegate.TVBaseURL2
         appController = TVApplicationController(context: appControllerContext, window: window, delegate: self)
         return true
     }

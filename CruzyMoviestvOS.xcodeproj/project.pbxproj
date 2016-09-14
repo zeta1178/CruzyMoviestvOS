@@ -13,50 +13,17 @@
 		ABA8B8DE1D75E7F1002A4F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA8B8DC1D75E7F1002A4F31 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AB5CA7701D2703E00025C59E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB5CA7561D2703E00025C59E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB5CA75D1D2703E00025C59E;
-			remoteInfo = "Cruzy-Movies";
-		};
-		AB5CA77B1D2703E00025C59E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB5CA7561D2703E00025C59E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB5CA75D1D2703E00025C59E;
-			remoteInfo = "Cruzy-Movies";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		AB5CA75E1D2703E00025C59E /* CruzyMoviestvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruzyMoviestvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5CA7611D2703E00025C59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5CA7631D2703E00025C59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB5CA7681D2703E00025C59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5CA76A1D2703E00025C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB5CA76F1D2703E00025C59E /* CruzyMoviestvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzyMoviestvOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB5CA77A1D2703E00025C59E /* CruzyMoviestvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzyMoviestvOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA8B8DD1D75E7F1002A4F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB5CA75B1D2703E00025C59E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB5CA76C1D2703E00025C59E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB5CA7771D2703E00025C59E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				AB5CA75E1D2703E00025C59E /* CruzyMoviestvOS.app */,
-				AB5CA76F1D2703E00025C59E /* CruzyMoviestvOS.xctest */,
-				AB5CA77A1D2703E00025C59E /* CruzyMoviestvOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,42 +81,6 @@
 			productReference = AB5CA75E1D2703E00025C59E /* CruzyMoviestvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB5CA76E1D2703E00025C59E /* CruzyMoviestvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB5CA7861D2703E00025C59E /* Build configuration list for PBXNativeTarget "CruzyMoviestvOSTests" */;
-			buildPhases = (
-				AB5CA76B1D2703E00025C59E /* Sources */,
-				AB5CA76C1D2703E00025C59E /* Frameworks */,
-				AB5CA76D1D2703E00025C59E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB5CA7711D2703E00025C59E /* PBXTargetDependency */,
-			);
-			name = CruzyMoviestvOSTests;
-			productName = "Cruzy-MoviesTests";
-			productReference = AB5CA76F1D2703E00025C59E /* CruzyMoviestvOS.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AB5CA7791D2703E00025C59E /* CruzyMoviestvOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB5CA7891D2703E00025C59E /* Build configuration list for PBXNativeTarget "CruzyMoviestvOSUITests" */;
-			buildPhases = (
-				AB5CA7761D2703E00025C59E /* Sources */,
-				AB5CA7771D2703E00025C59E /* Frameworks */,
-				AB5CA7781D2703E00025C59E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB5CA77C1D2703E00025C59E /* PBXTargetDependency */,
-			);
-			name = CruzyMoviestvOSUITests;
-			productName = "Cruzy-MoviesUITests";
-			productReference = AB5CA77A1D2703E00025C59E /* CruzyMoviestvOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,20 +96,6 @@
 						DevelopmentTeam = NQS57WE77C;
 						DevelopmentTeamName = "Michael Cruz";
 						ProvisioningStyle = Automatic;
-					};
-					AB5CA76E1D2703E00025C59E = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NQS57WE77C;
-						DevelopmentTeamName = "Michael Cruz";
-						ProvisioningStyle = Automatic;
-						TestTargetID = AB5CA75D1D2703E00025C59E;
-					};
-					AB5CA7791D2703E00025C59E = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NQS57WE77C;
-						DevelopmentTeamName = "Michael Cruz";
-						ProvisioningStyle = Automatic;
-						TestTargetID = AB5CA75D1D2703E00025C59E;
 					};
 				};
 			};
@@ -198,8 +113,6 @@
 			projectRoot = "";
 			targets = (
 				AB5CA75D1D2703E00025C59E /* CruzyMoviestvOS */,
-				AB5CA76E1D2703E00025C59E /* CruzyMoviestvOSTests */,
-				AB5CA7791D2703E00025C59E /* CruzyMoviestvOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,20 +124,6 @@
 			files = (
 				AB5CA7691D2703E00025C59E /* Assets.xcassets in Resources */,
 				ABA8B8DE1D75E7F1002A4F31 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB5CA76D1D2703E00025C59E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB5CA7781D2703E00025C59E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,34 +139,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB5CA76B1D2703E00025C59E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB5CA7761D2703E00025C59E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AB5CA7711D2703E00025C59E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB5CA75D1D2703E00025C59E /* CruzyMoviestvOS */;
-			targetProxy = AB5CA7701D2703E00025C59E /* PBXContainerItemProxy */;
-		};
-		AB5CA77C1D2703E00025C59E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB5CA75D1D2703E00025C59E /* CruzyMoviestvOS */;
-			targetProxy = AB5CA77B1D2703E00025C59E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ABA8B8DC1D75E7F1002A4F31 /* Main.storyboard */ = {
@@ -398,60 +270,6 @@
 			};
 			name = Release;
 		};
-		AB5CA7871D2703E00025C59E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Cruzy-MoviesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-MoviesTests";
-				PRODUCT_NAME = CruzyMoviestvOS;
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CruzyMoviestvOS.app/CruzyMoviestvOS";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		AB5CA7881D2703E00025C59E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Cruzy-MoviesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-MoviesTests";
-				PRODUCT_NAME = CruzyMoviestvOS;
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CruzyMoviestvOS.app/CruzyMoviestvOS";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Release;
-		};
-		AB5CA78A1D2703E00025C59E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Cruzy-MoviesUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-MoviesUITests";
-				PRODUCT_NAME = CruzyMoviestvOS;
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Cruzy-Movies";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		AB5CA78B1D2703E00025C59E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Cruzy-MoviesUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Cruzy.Cruzy-MoviesUITests";
-				PRODUCT_NAME = CruzyMoviestvOS;
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Cruzy-Movies";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -469,24 +287,6 @@
 			buildConfigurations = (
 				AB5CA7841D2703E00025C59E /* Debug */,
 				AB5CA7851D2703E00025C59E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB5CA7861D2703E00025C59E /* Build configuration list for PBXNativeTarget "CruzyMoviestvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB5CA7871D2703E00025C59E /* Debug */,
-				AB5CA7881D2703E00025C59E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB5CA7891D2703E00025C59E /* Build configuration list for PBXNativeTarget "CruzyMoviestvOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB5CA78A1D2703E00025C59E /* Debug */,
-				AB5CA78B1D2703E00025C59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
